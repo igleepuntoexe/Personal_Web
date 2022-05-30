@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html{
@@ -10,7 +11,6 @@ html{
 
 body{
     background-color: #131313;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 body::-webkit-scrollbar{
@@ -86,7 +86,7 @@ header nav ul li a:hover{
 }
 
 .col1 p{
-    font-size: 18px;
+    font-size: 24px;
     padding-left: 15%; 
 }
 
@@ -96,7 +96,7 @@ header nav ul li a:hover{
 }
 
 .col2{
-    margin-top: 3%; 
+    margin-top: 4%; 
 }
 
 .btn{
@@ -107,7 +107,7 @@ header nav ul li a:hover{
     border-radius: 5px; 
     margin-left: 15%;
     border-color: #131313;
-    font-size: 16px;
+    font-size: 22px;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -120,7 +120,7 @@ header nav ul li a:hover{
     border-radius: 5px;
     margin-left: 1%;
     border-color: #131313;
-    font-size: 16px;
+    font-size: 22px;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -188,6 +188,7 @@ h2{
 
 .des p{
     color: white;
+    font-size: 20px;
 }
 
 .btn3{
@@ -236,6 +237,7 @@ h2{
 }
 
 .containerStream{
+    width: 33%;
     background-color: #222;
     display: inline-block;
     margin-left: 3%;
@@ -244,16 +246,16 @@ h2{
 }
 
 .containerStream h2{
-    margin-right: 3px;
     padding-left: 150px; 
     padding-right: 150px;
+    text-align: center;
 }
 
 .containerStream p{
-    padding-top: 5%; /* 19px */
+    padding-top: 5%;
     text-align: center;
     color: white;
-    font-size: 120%; 
+    font-size: 20px; 
 }
 
 .containerStream p:nth-child(3){
@@ -271,8 +273,25 @@ h2{
     text-decoration: none;
 }
 
+i{
+    font-size: 48px;
+    margin-top: 5%;
+    margin-left: 18%;
+    color: #101010;
+}
+
+i:hover{
+    cursor: pointer;
+    transform: translateY(-8px) scale(1.02) translateZ(0px);
+    transition: 1s;
+}
+
+#YouTube{
+    padding-bottom: 5%;
+}
+
 footer{
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     background: #202020;
     color: white;      
@@ -299,7 +318,7 @@ footer{
 }
 
 .colum1 p{
-    font-size: 100%; 
+    font-size: 20px;
     color: #C7C7C7;
     margin-top: 20px;
     padding-bottom: 50px;
@@ -318,6 +337,7 @@ footer{
     text-decoration: none;
     margin-top: 8%;
     display: flex;
+    font-size: 20px;
 }
 
 .row3 img{
@@ -355,6 +375,7 @@ footer{
     display: flex;
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 
 .row4 a{
@@ -390,10 +411,12 @@ footer{
     display: flex;
     justify-content: space-between;  
     padding: 1.5%;
+    font-size: 20px;
 }
 
 .copyright{
     color: #C7C7C7;
+    font-size: 20px;
 }
 
 .copyright a{
@@ -407,18 +430,1621 @@ footer{
     color: #C7C7C7;
 }
 
-@media screen and (max-width: 1100px){
-    
+/* ! Min 200 - Max 299*/
+@media screen and (min-width: 200px) and (max-width:299px){
+    header img{
+        display: none;
+    }
+
+    header nav{
+        padding-left: 0%;
+    }
+
+    header nav ul{
+        display: inline-flex;
+        text-align: center;
+    }
+
+    header nav ul li a:first-of-type{
+        padding-left: 25px;
+    }
+
+    header nav ul li{
+        padding-left: 15px;
+    }
+
+    .container{
+        width: 178%;
+        padding-right: 2%;
+        padding-bottom: 10%;
+    }
+
+    .col1 h2{
+        padding-left: 14%;
+    }
+
+    .col1 p{
+        padding-left: 12%;
+    }
+
+    .col2 .btn{
+        margin-left: 14%;
+    }
+
+    .btn{
+        background-color: #131313;
+        text-decoration: none; 
+        padding: 3%;
+        width: 1%;
+        border-radius: 5px; 
+        margin-left: 15%;
+        margin-top: 20%;
+        border-color: #131313;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .btn1{
+        background-color: #131313;
+        text-decoration: none; 
+        padding: 3%;
+        width: 1%;
+        border-radius: 5px; 
+        margin-top: 15%;
+        border-color: #131313;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    #sections{
+        padding-top: 5%;
+        margin-left: 40%;
+    }
+
+    .card-main{
+        padding-left: 9%;
+    }
+
+    .card{
+        display: block;
+        width: 180%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .card h1{
+        font-size: 5px;
+    }
+
+    .socialNetworks{
+        width: 180%;
+    }
+
+    .socialNetworks img{
+        width: 10%;
+    }
+
+    .stream{
+        padding-top: 5%;
+        display: block;
+        width: 156%;
+        padding-right: 3%;
+    }
+
+    .stream img{
+        display: none;
+    }
+
+    .containerStream h2{
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 10%;
+        text-align: center;
+        display: inline;
+    }
+
+    .containerStream{
+        padding-right: 17px;
+        width: 105%;
+        padding-top: 5%;
+    }
+
+    i{
+        margin-left: 15%;
+    }
+
+    i:hover{
+        cursor: pointer;
+        transform: translateY(-8px) scale(1.02) translateZ(0px);
+        transition: 1s;
+    }
+
+    #YouTube{
+        padding-bottom: 5%;
+    }
+
+    #contact{
+        padding-right: 1px;
+        width: 180%;
+    }
+
     .container2{
-        flex-wrap: wrap;
+        display: block;
     }
-    
+
     .colum1{
-        max-width: 100%;
+        display: inline;
     }
-    
-    .colum2,
+
+    .colum1 p{
+        font-size: 16px;
+        line-height : 55px;
+    }
+
+    .colum2{
+        display: inline;
+        padding-bottom: 5%;
+    }
+
+    .row3 img{
+        width: 10%;
+    }
+
+    .row3 p{
+        font-size: 17px;
+    }
+
+    .row3:nth-last-of-type(1) img{
+        padding-bottom: 20%;
+    }
+
     .colum3{
-        margin-top: 40px;
+        display: inline;
+    }
+
+    .row4 p{
+        font-size: 14px;
+    }
+
+    .container2-footer{
+        display: none;
     }
 }
+
+/* ! Min 300 - Max 399*/
+@media screen and (min-width: 300px) and (max-width: 399px){
+
+    header{
+        margin-left: 5%;
+        padding-left: 0%;
+    }
+
+    header img{
+        display: none;
+    }
+
+    header nav{
+        padding-left: 0%;
+    }
+
+    header nav ul{
+        display: inline-flex;
+        text-align: center;
+    }
+
+    header nav ul li:first-of-type{
+        padding-left: 0px;
+    }
+
+    header nav ul li{
+        padding-left: 15px;
+    }
+
+    .container{
+        max-width: 100%;
+        padding-right: 2%;
+    }
+
+    .col1 h2{
+        padding-left: 4%;
+    }
+
+    .col1 p{
+        padding-left: 4%;
+    }
+
+    .col2 .btn{
+        margin-left: 3%;
+    }
+
+    .btn{
+        background-color: #131313;
+        text-decoration: none; 
+        padding: 3%;
+        width: 1%;
+        border-radius: 5px; 
+        margin-left: 15%;
+        margin-top: 15%;
+        border-color: #131313;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .btn1{
+        background-color: #131313;
+        text-decoration: none; 
+        padding: 3%;
+        width: 1%;
+        border-radius: 5px; 
+        margin-top: 15%;
+        border-color: #131313;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .card-main{
+        padding-left: 9%;
+    }
+
+    .card{
+        display: block;
+        width: 80%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .card h1{
+        font-size: 5px;
+    }
+
+    .socialNetworks{
+        max-width: 100%;
+    }
+
+    .socialNetworks img{
+        width: 10%;
+    }
+
+    .stream{
+        padding-top: 5%;
+        display: block;
+        width: 87%;
+        padding-right: 3%;
+    }
+
+    .stream img{
+        display: none;
+    }
+
+    .containerStream h2{
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 10%;
+        text-align: center;
+        display: inline;
+    }
+
+    .containerStream{
+        padding-right: 17px;
+        width: 105%;
+        padding-top: 5%;
+    }
+
+    i{
+        margin-left: 15%;
+    }
+
+    i:hover{
+        cursor: pointer;
+        transform: translateY(-8px) scale(1.02) translateZ(0px);
+        transition: 1s;
+    }
+
+    #YouTube{
+        padding-bottom: 5%;
+    }
+
+    #contact{
+        padding-right: 1px;
+    }
+
+    .container2{
+        display: block;
+    }
+
+    .colum1{
+        display: inline;
+    }
+
+    .colum1 p{
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    .colum2{
+        display: inline;
+        padding-bottom: 5%;
+    }
+
+    .row3 img{
+        width: 15%;
+    }
+
+    .row3 p{
+        font-size: 17px;
+    }
+
+    .row3:nth-last-of-type(1) img{
+        padding-bottom: 20%;
+    }
+
+    .colum3{
+        display: inline;
+    }
+
+    .row4 p{
+        font-size: 14px;
+    }
+
+    .container2-footer{
+        display: none;
+    }
+
+}
+
+/* ! Min 400 - Max 499*/
+
+@media screen and (min-width: 400px) and (max-width: 499px){
+
+    header{
+        margin-left: 13%;
+        padding-left: 0%;
+    }
+
+    header img{
+        display: none;
+    }
+
+    header nav{
+        padding-left: 0%;
+    }
+
+    header nav ul{
+        display: inline-flex;
+        text-align: center;
+    }
+
+    header nav ul li:first-of-type{
+        padding-left: 0px;
+    }
+
+    header nav ul li{
+        padding-left: 15px;
+    }
+
+    .container{
+        max-width: 100%;
+        padding-right: 2%;
+    }
+
+    .col1 h2{
+        padding-left: 8%;
+    }
+
+    .col1 p{
+        padding-left: 4%;
+    }
+
+    .col2 .btn{
+        margin-left: 4%;
+    }
+
+    .btn{
+        background-color: #131313;
+        text-decoration: none; 
+        padding: 3%;
+        width: 1%;
+        border-radius: 5px; 
+        margin-left: 15%;
+        margin-top: 15%;
+        border-color: #131313;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .btn1{
+        background-color: #131313;
+        text-decoration: none; 
+        padding: 3%;
+        width: 1%;
+        border-radius: 5px; 
+        margin-top: 15%;
+        border-color: #131313;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .card-main{
+        padding-left: 9%;
+    }
+
+    .card{
+        display: block;
+        width: 80%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .card h1{
+        font-size: 5px;
+    }
+
+    .socialNetworks{
+        max-width: 100%;
+    }
+
+    .socialNetworks img{
+        width: 10%;
+    }
+
+    .stream{
+        padding-top: 5%;
+        display: block;
+        width: 87%;
+        padding-right: 3%;
+    }
+
+    .stream img{
+        display: none;
+    }
+
+    .containerStream h2{
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 10%;
+        text-align: center;
+        display: inline;
+    }
+
+    .containerStream{
+        padding-right: 17px;
+        width: 105%;
+        padding-top: 5%;
+    }
+
+    i{
+        margin-left: 15%;
+    }
+
+    i:hover{
+        cursor: pointer;
+        transform: translateY(-8px) scale(1.02) translateZ(0px);
+        transition: 1s;
+    }
+
+    #YouTube{
+        padding-bottom: 5%;
+    }
+
+    #contact{
+        padding-right: 1px;
+    }
+
+    .container2-footer-all{
+        padding-bottom: 30%;
+    }
+
+    .container2{
+        display: block;
+    }
+
+    .colum1{
+        display: inline;
+    }
+
+    .colum1 h1{
+        font-size: 24px;
+    }
+
+    .colum1 p{
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    .colum2{
+        display: inline;
+    }
+
+    .colum2 h1{
+        font-size: 24px;
+    }
+
+    .row3 img{
+        width: 10%;
+    }
+
+    .row3 p{
+        font-size: 16px;
+    }
+
+    .row3:nth-last-of-type(1) img{
+        padding-bottom: 20%;
+    }
+
+    .colum3{
+        display: inline;
+    }
+
+    .colum3 h1{
+        font-size: 24px;
+    }
+
+    .row4 p{
+        font-size: 14px;
+    }
+
+    .container2-footer{
+        display: none;
+    }
+
+}
+
+/* ! Min 500 - Max 599*/
+
+@media screen and (min-width:500px) and (max-width:599px) {
+
+    header img{
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    header nav{
+        padding-left: 40%;
+    }
+
+    header nav ul{
+        display: inline-flex;
+        text-align: center;
+    }
+
+    header nav ul li:first-of-type{
+        padding-left: 0px;
+    }
+
+    header nav ul li{
+        padding-left: 15px;
+    }
+
+    .container{
+        width: 115%;
+        padding-right: 2%;
+    }
+
+    .col1 h2{
+        padding-left: 8%;
+    }
+
+    .col1 p{
+        padding-left: 8%;
+    }
+
+    .col2 .btn{
+        margin-left: 8%;
+    }
+
+    .card-main{
+        padding-left: 14%;
+    }
+
+    .card{
+        display: inline-block;
+        width: 45%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .card h3{
+        font-size: 18px;
+    }
+
+    .des p{
+        color: white;
+        font-size: 16px;
+    }
+
+    .socialNetworks{
+        width: 117%;
+    }
+
+    .socialNetworks h2{
+        padding-left: 0%;
+    }
+
+    .stream{
+        display: block;
+        width: 101%;
+        padding-right: 3%;
+    }
+
+    .stream img{
+        display: none;
+    }
+
+    .containerStream{
+        text-align: center;
+        width: 110%;
+    }
+
+    .sections{
+        padding-left: 15%;
+        margin-right: 0%;
+    }
+
+    i{
+        margin-left: 10%;
+    }
+
+    i:hover{
+        cursor: pointer;
+        transform: translateY(-8px) scale(1.02) translateZ(0px);
+        transition: 1s;
+    }
+
+    #Twitch{
+        margin-left: 0%;
+    }
+
+    #YouTube{
+        padding-bottom: 5%;
+    }
+
+    #contact{
+        padding-right: 1px;
+        width: 117%;
+    }
+
+    .container2{
+        display: block;
+        width: 85%;
+    }
+
+    .colum1{
+        display: inline;
+    }
+
+    .colum1 p{
+        font-size: 18px;
+        line-height : 55px;
+    }
+
+    .colum2{
+        display: inline;
+        padding-bottom: 5%;
+    }
+
+    .row3 img{
+        width: 10%;
+    }
+
+    .row3 P{
+        font-size: 18px;
+    }
+
+    .row3:nth-last-of-type(1) img{
+        padding-bottom: 20%;
+    }
+
+    .colum3{
+        display: inline;
+    }
+
+    .row4:nth-last-of-type(1) img{
+        padding-bottom: 10%;
+    }
+
+    .row4 p{
+        font-size: 18px;
+    }
+
+    .footer{
+        width: 80%;
+    }
+
+    .footer p{
+        font-size: 18px;
+    }
+
+    .information{
+        font-size: 18px;
+        text-align: right;
+    }
+}
+
+/* ! Min 600 - Max 699*/
+
+@media screen and (min-width:600px) and (max-width: 699px){
+
+    header img{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+
+    header nav ul{
+        display: inline-flex;
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    header nav ul li{
+        padding-left: 5%;
+    }
+
+    .container{
+        width: 90%;
+        padding-right: 10%;
+    }
+
+    .card-main{
+        padding-left: 14%;
+    }
+
+    .card{
+        display: inline-block;
+        width: 34%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .card h1{
+        font-size: 5px;
+    }
+
+    .des p{
+        color: white;
+        font-size: 16px;
+    }
+
+    .socialNetworks{
+        width: 100%;
+    }
+
+    .stream{
+        display: block;
+        width: 85%;
+        padding-right: 3%;
+    }
+
+    .stream img{
+        display: none;
+    }
+
+    .containerStream{
+        text-align: center;
+        width: 110%;
+    }
+
+    i{
+        margin-left: 10%;
+    }
+
+    i:hover{
+        cursor: pointer;
+        transform: translateY(-8px) scale(1.02) translateZ(0px);
+        transition: 1s;
+    }
+
+    #Twitch{
+        margin-left: 0%;
+    }
+
+    #YouTube{
+        padding-bottom: 5%;
+    }
+
+    #contact{
+        padding-right: 1px;
+    }
+
+    .container2{
+        display: block;
+    }
+
+    .colum1{
+        display: inline;
+    }
+
+    .colum1 p{
+        font-size: 16px;
+        line-height : 55px;
+    }
+
+    .colum2{
+        display: inline;
+        padding-bottom: 5%;
+    }
+
+    .row3 img{
+        width: 10%;
+    }
+
+    .row3 P{
+        font-size: 16px;
+    }
+
+    .row3:nth-last-of-type(1) img{
+        padding-bottom: 20%;
+    }
+
+    .colum3{
+        display: inline;
+    }
+
+    .row4:nth-last-of-type(1) img{
+        padding-bottom: 10%;
+    }
+
+    .row4 p{
+        font-size: 16px;
+    }
+
+    .footer p{
+        font-size: 16px;
+    }
+
+}
+
+/* ! Min 700 - Max 799*/
+
+@media screen and (min-width: 700px) and (max-width: 799px){
+
+    header img{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+
+    header nav ul{
+        display: inline-flex;
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    header nav ul li{
+        padding-left: 5%;
+    }
+
+    .container{
+        width: 90%;
+        padding-right: 10%;
+    }
+
+    .card-main{
+        padding-left: 14%;
+    }
+
+    .card{
+        display: inline-block;
+        width: 34%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .card h1{
+        font-size: 5px;
+    }
+
+    .des p{
+        color: white;
+        font-size: 16px;
+    }
+
+    .socialNetworks{
+        width: 100%;
+    }
+
+    .stream{
+        display: block;
+        width: 85%;
+        padding-right: 3%;
+    }
+
+    .stream img{
+        display: none;
+    }
+
+    .containerStream{
+        text-align: center;
+        width: 110%;
+    }
+
+    i{
+        margin-left: 10%;
+    }
+
+    i:hover{
+        cursor: pointer;
+        transform: translateY(-8px) scale(1.02) translateZ(0px);
+        transition: 1s;
+    }
+
+    #Twitch{
+        margin-left: 0%;
+    }
+
+    #YouTube{
+        padding-bottom: 5%;
+    }
+
+    .container2-footer-all{
+        padding-bottom: 25%;
+    }
+
+    .colum1 h1{
+        font-size: 20px;
+    }
+
+    .colum1 p{
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .colum2 h1{
+        font-size: 19px;
+    }
+
+    .colum2 p{
+        font-size: 18px;
+    }
+
+    .colum3 h1{
+        font-size: 20px;
+    }
+
+    .colum3 p{
+        font-size: 16px;
+    }
+
+}
+
+/* ! Min 800 - Max 899*/
+
+@media screen and (min-width: 800px) and (max-width: 899px){
+
+    header img{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+
+    header nav ul{
+        display: inline-flex;
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    header nav ul li{
+        padding-left: 5%;
+    }
+
+    .container{
+        width: 90%;
+        padding-right: 10%;
+    }
+
+    .card-main{
+        padding-left: 14%;
+    }
+
+    .card{
+        display: inline-block;
+        width: 34%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .card h1{
+        font-size: 5px;
+    }
+
+    .des p{
+        color: white;
+        font-size: 16px;
+    }
+
+    .socialNetworks{
+        width: 100%;
+    }
+
+    .stream{
+        display: block;
+        width: 85%;
+        padding-right: 3%;
+    }
+
+    .stream img{
+        display: none;
+    }
+
+    .containerStream{
+        text-align: center;
+        width: 110%;
+    }
+
+    i{
+        margin-left: 10%;
+    }
+
+    i:hover{
+        cursor: pointer;
+        transform: translateY(-8px) scale(1.02) translateZ(0px);
+        transition: 1s;
+    }
+
+    #Twitch{
+        margin-left: 0%;
+    }
+
+    #YouTube{
+        padding-bottom: 5%;
+    }
+
+    #contact{
+        width: 100%;
+    }
+
+    .container2-footer{
+        padding-bottom: 30%;
+    }
+
+    .information{
+        margin-bottom: 20%;
+    }
+    
+    .colum1 h1{
+        font-size: 120%; 
+    }
+    
+    .colum1 p{
+        font-size: 15px;
+        color: #C7C7C7;
+        margin-top: 20px;
+        padding-bottom: 50px;
+        line-height: 30px;
+    }
+    
+    .colum2{
+        max-width: 25%;
+    }
+    
+    .colum2 h1{
+        font-size: 120%; 
+    }
+    
+    .row3{
+        text-decoration: none;
+        margin-top: 8%;
+        display: flex;
+        font-size: 20px;
+    }
+    
+    .row3 img{
+        text-decoration: none;
+        width: 12%;
+        height: 12%;
+    }
+    
+    .row3 p{
+        text-decoration: none;
+        margin-top: 4%; 
+        margin-left: 10%;   
+        color: #C7C7C7;
+    }
+    
+    .row3 p a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .row3 p a:hover{
+        color: greenyellow;
+    }
+    
+    .colum3{
+        max-width: 1200%;
+    }
+    
+    .colum3 h1{
+        font-size: 120%; 
+    }
+    
+    .row4{
+        margin-top: 15%;
+        display: flex;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .row4 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .row4 img{
+        width: 36px;
+        height: 36px;
+    }
+    
+    .row4 p{
+        margin-top: 4%; 
+        margin-left: 4%;
+        max-width: 140px;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+    
+    .row4 p a:hover{
+        color: greenyellow;
+    }
+    
+    .container2-footer{
+        width: 100%;  
+        background: #101010;
+    }
+    
+    .footer{
+        max-width: 120%;
+        margin: 2%;
+        display: flex;
+        justify-content: space-between;  
+        padding: 1.5%;
+        font-size: 20px;
+    }
+    
+    .copyright{
+        color: #C7C7C7;
+        font-size: 20px;
+    }
+    
+    .copyright a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .information a{
+        text-decoration: none;
+        color: #C7C7C7;
+    }
+
+}
+
+/* ! Min 901 - Max 1000*/
+
+@media screen and (min-width: 900px) and (max-width:1000px) {
+    
+    header img{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+
+    header nav ul{
+        display: inline-flex;
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    header nav ul li{
+        padding-left: 5%;
+        font-size: 24px;
+    }
+
+    .container{
+        width: 102%;
+    }
+
+    .col1 h2{
+        padding-left: 5%;
+    }
+
+    .col1 p{
+        padding-left: 5%;
+    }
+
+    .col2 .btn{
+        margin-left: 5%;
+    }
+
+    .card-main{
+        padding-left: 0%;
+    }
+
+    .card{
+        width: 20%;
+    }
+
+    .title h3{
+        font-size: 16px;
+    }
+
+    .des p{
+        color: white;
+        font-size: 14px;
+    }
+
+    .socialNetworks{
+        width: 101%;
+    }
+
+    .stream{
+        display: block;
+        width: 85%;
+        padding-right: 3%;
+    }
+
+    .stream img{
+        display: none;
+    }
+
+    .containerStream{
+        text-align: center;
+        width: 116%;
+    }
+
+    i{
+        margin-left: 10%;
+    }
+
+    i:hover{
+        cursor: pointer;
+        transform: translateY(-8px) scale(1.02) translateZ(0px);
+        transition: 1s;
+    }
+
+    #Twitch{
+        margin-left: 0%;
+    }
+
+    #YouTube{
+        padding-bottom: 5%;
+    }
+
+    #contact{
+        padding-right: 1px;
+        width: 102%;
+    }
+    
+    .container2-footer{
+        padding-bottom: 68%;
+    }
+
+    .container2{
+        display: flex;
+    }
+
+    .colum1 h1{
+        font-size: 24px;
+    }
+
+    .colum1 p{
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .colum2 h1{
+        font-size: 24px;
+    }
+
+    .row3 img{
+        width: 20%;
+    }
+
+    .row3 p{
+        font-size: 18px;
+    }
+
+    .row3:nth-last-of-type(1) img{
+        padding-bottom: 20%;
+    }
+
+    .colum3 h1{
+        font-size: 24px;
+    }
+
+    .row4:nth-last-of-type(1) img{
+        padding-bottom: 10%;
+    }
+
+    .row4 p{
+        font-size: 16px;
+    }
+
+    .footer p{
+        font-size: 18px;
+    }
+}
+
+/* ! Min 1000 - Max 1099*/
+
+@media screen and (min-width: 1000px) and (max-width:1099px) {
+    header img{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+
+    header nav ul{
+        display: inline-flex;
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    header nav ul li{
+        padding-left: 5%;
+        font-size: 24px;
+    }
+
+    .container{
+        width: 103%;
+    }
+
+    .card-main{
+        padding-left: 0%;
+    }
+
+    .card{
+        width: 20%;
+    }
+
+    .title h3{
+        font-size: 16px;
+    }
+
+    .des p{
+        color: white;
+        font-size: 16px;
+    }
+
+    .socialNetworks{
+        width: 103%;
+    }
+
+    .stream{
+        display: block;
+        width: 85%;
+        padding-right: 3%;
+    }
+
+    .stream img{
+        display: none;
+    }
+
+    .containerStream{
+        text-align: center;
+        width: 116%;
+    }
+
+    i{
+        margin-left: 10%;
+    }
+
+    i:hover{
+        cursor: pointer;
+        transform: translateY(-8px) scale(1.02) translateZ(0px);
+        transition: 1s;
+    }
+
+    #Twitch{
+        margin-left: 0%;
+    }
+
+    #YouTube{
+        padding-bottom: 5%;
+    }
+
+    #contact{
+        width: 103%;
+    }
+
+    .colum1 h1{
+        font-size: 24px;
+    }
+
+    .colum1 p{
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .colum2 h1{
+        font-size: 24px;
+    }
+
+    .row3 img{
+        width: 20%;
+    }
+
+    .row3 p{
+        font-size: 18px;
+    }
+
+    .row3:nth-last-of-type(1) img{
+        padding-bottom: 20%;
+    }
+
+    .colum3 h1{
+        font-size: 24px;
+    }
+
+    .row4:nth-last-of-type(1) img{
+        padding-bottom: 10%;
+    }
+
+    .row4 p{
+        font-size: 16px;
+    }
+
+}
+
+/* ! Min 1100 - Max 1199*/
+
+@media screen and (min-width: 1100px) and (max-width:1199px) {
+    header img{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+
+    header nav ul{
+        display: inline-flex;
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    header nav ul li{
+        padding-left: 5%;
+        font-size: 24px;
+    }
+
+    .container{
+        width: 103%;
+    }
+
+    .card-main{
+        padding-left: 0%;
+    }
+
+    .card{
+        width: 20%;
+    }
+
+    .title h3{
+        font-size: 16px;
+    }
+
+    .des p{
+        color: white;
+        font-size: 16px;
+    }
+
+    .socialNetworks{
+        width: 103%;
+    }
+
+    .stream{
+        display: block;
+        width: 85%;
+        padding-right: 3%;
+    }
+
+    .stream img{
+        display: none;
+    }
+
+    .containerStream{
+        text-align: center;
+        width: 116%;
+    }
+
+    i{
+        margin-left: 10%;
+    }
+
+    i:hover{
+        cursor: pointer;
+        transform: translateY(-8px) scale(1.02) translateZ(0px);
+        transition: 1s;
+    }
+
+    #Twitch{
+        margin-left: 0%;
+    }
+
+    #YouTube{
+        padding-bottom: 5%;
+    }
+
+    #contact{
+        padding-right: 1px;
+        width: 103%;
+    }
+
+    .container2{
+        display: block;
+    }
+
+    .colum1{
+        display: inline;
+    }
+
+    .colum1 p{
+        font-size: 18px;
+        line-height : 55px;
+    }
+
+    .colum2{
+        display: inline;
+        padding-bottom: 5%;
+    }
+
+    .row3 img{
+        width: 10%;
+    }
+
+    .row3 P{
+        font-size: 18px;
+    }
+
+    .row3:nth-last-of-type(1) img{
+        padding-bottom: 20%;
+    }
+
+    .colum3{
+        display: inline;
+    }
+
+    .row4:nth-last-of-type(1) img{
+        padding-bottom: 10%;
+    }
+
+    .row4 p{
+        font-size: 18px;
+    }
+
+    .footer p{
+        font-size: 18px;
+    }
+}
+
+/* ! Min 1200 - Max 1299px*/
+
+@media screen and (min-width: 1200px) and (max-width:1299px) {
+    header nav ul{
+        display: inline-flex;
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    .stream img{
+        width: 40%;
+    }
+
+    .containerStream{
+        text-align: center;
+        width: 42%;
+    }
+
+    #Twitch{
+        margin-left: 0%;
+    }
+}
+
+
